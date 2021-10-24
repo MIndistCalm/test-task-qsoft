@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/adaptive.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="partners">
+      <div class="partners__header partners__row">
+        <div class="partners__icon partners__column">
+          <img src="./img/logo.svg" alt="" />
+        </div>
+
+        <div class="partners__search-input partners__column">
+          <img src="./img/search.svg" alt="" id="search-icon" />
+          <input
+            type="search"
+            name="s"
+            placeholder="Найти..."
+            id="search-input"
+          />
+        </div>
+        <div class="partners__slash"></div>
+        <div class="partners__profile partners__column">
+          <div class="partners__profile-name">Константин</div>
+          <div class="partners__profile-icon">
+            <picture>
+              <source
+                srcset="./img/profile-stroke.svg"
+                media="(max-width: 800px)"
+              />
+              <img src="./img/profile-icon.jpg" alt="" id="profile-icon" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  </body>
+</html>

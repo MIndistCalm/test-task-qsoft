@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1440px) {
+  .partners__header {
+    padding-left: 10vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .partners__header {
+    padding-left: 5vw;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .partners__header {
+    padding-left: 5vw;
+    flex-wrap: wrap;
+  }
+  .partners__search-input {
+    order: 3;
+  }
+}
