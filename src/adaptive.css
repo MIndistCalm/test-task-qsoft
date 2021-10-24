@@ -27,7 +27,7 @@
   .partners__list-item {
     height: 120px;
     width: 18.75vw;
-    min-width: 229px;
+    min-width: 200px;
     margin: 30px 30px 0 0;
   }
   .partners__profile {
@@ -63,7 +63,7 @@
 
   .partners__list-item {
     height: 120px;
-    width: 229px;
+    width: 29.8vw;
     margin: 20px 20px 0 0;
   }
   .partners__title {
