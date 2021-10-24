@@ -22,6 +22,7 @@
   }
   .partners__search-input {
     border-radius: 5px;
+    width: 100%;
   }
   .partners__article {
     padding-left: 9.375vw;
@@ -54,6 +55,7 @@
   }
   .partners__search-input {
     border-radius: 5px;
+    width: 100%;
   }
   .partners__profile {
     padding: 0 0 0 20px;
@@ -114,6 +116,7 @@
     margin: 0;
     border-radius: 0px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    width: 100vw;
   }
   .partners__profile {
     padding: 0 25px 0 20px;

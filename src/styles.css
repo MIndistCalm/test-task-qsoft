@@ -39,6 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   /* height: 30px; */
   /* margin-right: 60px; */
 }
@@ -48,7 +49,7 @@
   justify-content: center;
   align-items: center;
   height: 40px;
-  width: 100%;
+  /* width: 100%; */
   max-width: 763px;
   font-size: 16px;
   /* margin: inherit 60px; */
@@ -87,6 +88,7 @@
   height: inherit;
   /* padding: 0 0 0 20px; */
   /* width: 250px; */
+  cursor: pointer;
 }
 .partners__slash {
   height: 80px;
@@ -96,6 +98,7 @@
 }
 .partners__profile-name {
   text-align: center;
+  color: #768298;
   /* margin: 0 0 0 20px; */
 }
 .partners__profile-icon {
@@ -138,6 +141,8 @@
 }
 .partners__list-item embed {
   z-index: -1;
+  max-width: 90%;
+  max-height: 90%;
 }
 .partners__list-item:hover {
   cursor: pointer;
