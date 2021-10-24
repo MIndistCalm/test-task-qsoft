@@ -15,7 +15,7 @@
   #search-icon {
     width: 20px;
     height: 20px;
-    margin: 9px;
+    margin: 8px 5px 8px 10px;
   }
   .partners__search-input {
     border-radius: 5px;
@@ -91,6 +91,9 @@
     height: 60px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0);
   }
+  .partners__article {
+    padding-left: 0;
+  }
   /* .partners__column {
     margin: 0px 0;
     padding: 0;
@@ -106,7 +109,7 @@
   #search-icon {
     /* width: 20px; */
     /* height: 20px; */
-    margin: 9px 9px 9px 5.5vw;
+    margin: 8px 5px 8px 5.5vw;
   }
   .partners__search-input {
     order: 3;
@@ -125,18 +128,15 @@
   .partners__slash {
     display: none;
   }
-
-  .partners__article {
-    padding-left: 5vw;
-  }
   .partners__company-list {
     justify-content: center;
   }
   .partners__list-item {
     height: 140px;
     width: 89.3vw;
+    margin: 20px 0 0 0;
   }
   .partners__title {
-    margin-top: 70px;
+    margin: 0 0 0 5.33vw;
   }
 }
